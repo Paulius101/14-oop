@@ -1,7 +1,13 @@
-const Dog = require('./js/Dog');
+const Bmw =  require ('./js/cars/Bmw')
+const juodasBmw = new Bmw ('Bmw', 'Left', 5, 4)
 
-const rexas = new Dog('rex', 'brown');
-const spaikas = new Dog('Spike', 'white')
 
-console.log(rexas.furColor);
-console.log(spaikas.furColor);
+const Tesla =  require ('./js/cars/Tesla')
+const baltaTesla = new Tesla ('Tesla', 'Left', 5, 4)
+
+const Volvo = require ('./js/cars/Volvo')
+const pilkasVolvo = new Volvo ('Volvo', 'Left', 5, 4)
+
+console.log(pilkasVolvo);
+pilkasVolvo.turnOnTheEngine()
+console.log(pilkasVolvo);
